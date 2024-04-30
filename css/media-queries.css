@@ -1,0 +1,46 @@
+@media (max-width : 576px){
+
+}
+
+@media (max-width : 768px){
+    
+}
+
+@media (max-width : 992px){
+    nav ul li{
+        /* display: none; */
+        visibility: hidden;
+        margin-right: 0;
+        font-size: 14px;
+        /* transform: translateX(500px); */
+    }
+    .footer{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+@media (max-width : 1200px){
+    .search-btn{
+        width: 40px;
+        right: 40px;
+    }
+    .menu-btn{
+        display: flex !important;
+        right: 0px;
+        width: 40px;
+    }
+    .search-bar{
+        flex-direction: column;
+    }
+    .search-form{
+        flex-direction: column;
+    }
+    .newsletter-container{
+        flex-direction: column;
+    }
+    .subscribe-form{
+        flex-direction: column;
+        display: flex;
+    }
+}
